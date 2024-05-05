@@ -1,0 +1,137 @@
+.performance{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:  100px 100px 150px 100px;
+    border-radius: 0px 0px 40% 40%;
+    background-color: #F6FAFF;
+    box-shadow: #9bc9ed 0px 18px 50px -20px inset;
+
+    
+}
+
+.backgroundPerformance{
+    
+    background-color: #fff;
+}
+
+.VTEX{
+    padding: 60px 60px 10px 60px;
+}
+.VTEXlist{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.VTEXlist a{
+    color: #767676;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+
+.VTEXlist a:hover{
+color: #0090FF;
+}
+
+ p{
+    margin-bottom: 30px;
+ }
+
+
+.blueDetail{
+color: #0090FF;
+
+}
+
+.titlePerfomance{
+    font-size: 60px;
+}
+
+.informationPerformance .buttonPlus{
+margin-right: 20px;
+}
+
+
+.Circle{
+    background: linear-gradient(to right, #0492ff 0%,#1a9bff 32%,#37a8ff 51%,#4ab0ff 100%);
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.textP{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    opacity: 0;
+    animation: fader 5s infinite;
+}
+
+.a {
+    animation-delay: 0s;    
+}
+.b {
+    animation-delay: 3s;
+}
+.c {
+    animation-delay: 6s;
+}
+
+@keyframes fader {
+    10% {
+        opacity: 1;
+    }
+    33.3% {
+        opacity: 0;
+    }
+}
+
+.animationPerformance {
+    height: 100px;
+}
+
+.image{
+    position: relative;
+  
+}
+
+.img1{
+    position: absolute;
+    left: 550px;
+    top: -500px;
+    width: 45%;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+
+.img2{
+    position: absolute;
+    top: -300px;
+    width: 45%;
+    left: 730px;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-25px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}

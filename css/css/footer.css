@@ -1,0 +1,80 @@
+.networks{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    justify-content: center;
+    padding: 0px;
+}
+
+.networksIcons{
+    text-align: center;
+   
+    
+}
+
+footer{
+    background-color: #F6FAFF;
+}
+.footerInformations{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 60px;
+    
+}
+
+.footerInformations h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size:18px ;
+    font-weight: 700;
+    color:#919DA6 ;
+    line-height: 23.4px;
+    text-align: left;
+    padding: 0 40px 5px 40px;
+}
+
+.footerInformations ul{
+    list-style: none;
+    color: #98A3AC;
+    font-family: "poppins", sans-serif;
+    font-size: 16px;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.footerInformations a{
+    color: #98A3AC;
+    
+}
+
+.end{
+    display: flex;
+    flex-direction: row;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 13px;
+    line-height: 28.8px;
+    color: #a6a7a9;
+    padding: 0px 100px 0px 170px;
+    text-align: left;
+    gap: 20px;
+    position: relative;
+}
+
+.end::after{
+    content: " ";
+    background-color:#98A3AC ;
+    width: 1000px;
+    height: 0.5px;
+    position: absolute;
+    left: 115px;
+
+
+}
+
+.end a{
+    font-size: 13px;
+    line-height: 28.8px;
+    color: #737373;
+    text-decoration:underline #0492ff ;
+    margin-top: 13px;
+}

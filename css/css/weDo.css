@@ -1,0 +1,127 @@
+.weDo{
+    display: none;
+}
+
+
+
+
+.backgroundWedo{
+    background-color: #F6FAFF;
+    border-radius: 0px 0px 30% 30%;
+}
+
+.informationsWEDO{
+    grid-column: 1;
+}
+
+.weDo span{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.weDo h1{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0px;
+    grid-column: 1;
+}
+
+.weDoList{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 26px;
+    border-radius: 30px;
+    
+    
+}
+
+.buttonDetail{
+    background-color: #E7F0FF;
+    border-radius: 30px;
+    padding:13px 20px 13px 20px;
+    font-size: 13px;
+    color:#0090FF ;
+    font-weight: 700;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+.imageNote{
+    position: relative;
+}
+.noteImg{
+    position: absolute;
+    top: 1700px;
+    left: 600px;
+    width: 43%;
+   position: absolute;
+    width: 45%;
+    animation: slidein 1s ease-in-out;
+}
+@keyframes slidein {
+    from{
+        transform: translateX(100%);
+        opacity: 0%;
+    }
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.informationsWEDO h3{
+font-size: 40px;
+}
+
+.digital{
+    padding: 00px 60px 10px 60px;
+    position: relative;
+}
+.digitalList{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    list-style: none;
+}
+
+.digitalList li{
+padding: 20px;
+background-color: #f5f9ff;
+border-radius: 10px;
+font-family: "Plus Jakarta Sans", sans-serif;
+font-size: 14px;
+color: #68737B;
+transition: 1s;
+
+}
+.digitalList li button{
+font-weight: 700px;
+text-align: center;
+color: #68737B;
+cursor: pointer;
+}
+
+.digitalList img{
+    margin: auto;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.digitalList li:hover{
+background: #ffff;
+margin-top: -20px;
+transition: 1s;
+}
+.open{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    padding: 100px;
+}
+
+.active{
+    margin-top:-20px;
+    background-color: #ffff;
+    border-radius: 5px;
+}

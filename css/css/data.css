@@ -1,0 +1,60 @@
+.backgroundData{
+    background-color: #F6FAFF;
+}
+.data{
+    background-color: #ffff;
+    border-radius: 0px 0px 40% 40%;
+}
+
+.Numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ffff;
+    border-radius: 0px 0px 30% 30%;
+}
+
+.Numbers h1{
+    font-size: 18px;
+    font-weight:800px;
+    margin-left: 60px;
+    
+    
+}
+
+.Numbers img{
+    max-width:100% ;
+}
+.dataNumbers{
+    grid-column: 1;
+    list-style: none;
+  
+}
+
+.dataNumbers h2{
+    font-size: 68px;
+    font-weight: 700px;
+    margin: 5px;
+}
+
+.dataNumbers p{
+    font-size:16px;
+    font-weight: 400px;
+}
+
+.data{
+    padding: 60px 0px 60px 60px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.companies{
+    background-color:  #F6FAFF;
+}
+.companiesList {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    background-color: #F6FAFF;
+    padding: 15px;
+}
+
+

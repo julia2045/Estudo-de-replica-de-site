@@ -1,0 +1,122 @@
+.evolve{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 120px;
+    background-color: #F6FAFF;
+}
+
+.evolve1{
+    background: linear-gradient(to right, #0492ff 0%,#1a9bff 32%,#37a8ff 51%,#4ab0ff 100%);
+    text-align: left;
+    border-radius: 20px 0px 0px 20px;
+   padding: 300px 60px 0px 60px;
+}
+
+.evolve1 h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 40px;
+    font-weight:800;
+    color:#fff;
+    line-height: 56px;
+}
+
+.evolve1 p{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 25.6px;
+    word-spacing: 5px;
+}
+
+.evolve2{
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 0px 20px 20px 0px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    
+}
+.evolve2 h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 41.6px;
+    color: #283033;
+}
+
+.detailRed{
+    color: #ff0404;
+}
+
+.formEvolve{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.formEvolve label{
+    display: block;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+}
+
+
+.formEvolve .column-2{
+    grid-column: span 2;
+}
+
+
+.formEvolve input[type="text"],
+.formEvolve input[type="email"],
+.formEvolve textarea,
+.formEvolve select{
+    border: 1px solid #cfcaca;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #f3f2f2;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    margin: 10px 0px 10px 0px;
+}
+
+.formEvolve input[type="text"]:focus,
+.formEvolve input[type="email"]:focus,
+.formEvolve textarea:focus,
+.formEvolve select:focus{
+    outline: none;
+    border-color: #0492ff;
+    
+}
+
+
+.evolve2 .buttonMain{
+    grid-column: 1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.evolve2 p{
+    font-family: "Plus Jakarta Sans", sans-serif; 
+    font-size: 16px;
+    word-spacing: 5px;
+}
+.evolve2 span{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size:12px;
+    line-height: 19.2px;
+    color: #ADB6BD;
+    word-spacing: 5px
+}
+
+.formEvolve .checkboxkeyrus label {
+    display: inline;
+    font-size: 12px;
+    color: #acabab;
+    font-weight: 400;
+    margin-bottom: 10px;
+   
+}
+
+.formEvolve .checkboxkeyrus input[type="checkbox"] {
+    margin:3px 3px 0px 4px;
+}
+

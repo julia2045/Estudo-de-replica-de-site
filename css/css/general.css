@@ -1,0 +1,46 @@
+
+
+body{
+    margin: 0;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+background: none;
+border: none;
+}
+.buttonMain{
+    background: linear-gradient(to right, #0492ff 0%,#1a9bff 32%,#37a8ff 51%,#4ab0ff 100%);
+    border-radius: 20px;
+    color: #ffff;
+    padding: 13px 40px 13px 40px;
+    font-weight:800;
+    font-family: "poppins", sans-serif;
+    letter-spacing: 1px;
+   
+    border: none;
+    }
+    .buttonMain:hover{
+        background: linear-gradient(to right, #058df5 0%,#1a9bff 32%,#37a8ff 51%,#2193eb 100%);
+    }
+    .buttonMain a{
+        color: #ffff;
+        font-weight: 700; 
+        font-size: 16px;
+    }
+    .buttonPlus{
+        background-color: #F6FAFF;
+        border: solid 1px #0090FF;
+        padding:13px 40px 13px 40px;
+        border-radius: 40px;
+    }
+
+    .buttonPlus a{
+        color:#0090FF;
+        font-weight: 700;
+        font-size: 16px;
+    }

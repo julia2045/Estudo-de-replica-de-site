@@ -1,0 +1,22 @@
+#mvp{
+    background-color: #F6FAFF;
+}
+
+.mvp{
+    display: grid;
+    background-color: #ffff;
+    grid-template-columns: 1fr 1fr;
+    padding:  0px 200px 200px 0px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border-radius: 0px 0px 40% 40%;
+}
+.mvp h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.mvp p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
